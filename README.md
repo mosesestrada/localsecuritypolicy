@@ -38,32 +38,41 @@ Account Lockout Policies:
 Select Start and then select Windows Administrative Tools > Local Security Policy.
 
 <br/>
-<img src="https://i.imgur.com/2pESE6D.png" height="80%" width="80%" alt="Adduser"/>
+<img src="https://i.imgur.com/2pESE6D.png" height="80%" width="80%" alt="lsp"/>
 <br />
 <br />
 From the left pane, expand and select Account Policies > Password Policy.
  <br/>
-<img src="https://i.imgur.com/dZB7jdd.png" height="80%" width="80%" alt="Adduser"/>
+<img src="https://i.imgur.com/dZB7jdd.png" height="80%" width="80%" alt="lsp"/>
 <br />
 <br />
-Expand your domain controller folder which in this case is CorpNet.xyz and for this user we will be adding him to Sales>Users OU.
-To do this Highlight "users" under Sales, right click > new> user. Follow the arrows I have posted in the picture below.
- <br/>
-<img src="https://i.imgur.com/tcT2KPW.png" height="80%" width="80%" alt="Adduser"/>
-<br />
-<br />
-Enter first and Last name. The Logon name is what the user will use to logon to the domain. Click next.
+ From the middle pane, double-click the applicable policy to be modified.   Configure password settings:
+        Cycle through 10 passwords before reusing an old one.
+        Change the password every 90 days.
+        Keep the password at least 14 days.
+        Create a password at least 8 characters long.
+
 
  <br/>
-<img src="https://i.imgur.com/EAIC4m4.png" height="80%" width="80%" alt="Adduser"/>
+<img src="https://i.imgur.com/Ny5DdEf.png" height="80%" width="80%" alt="Adduser"/>
 <br />
 <br />
-Add a password for your user and click next.
+ Don't forget, we are also creating a password that meets complexity requirements such as using uppercase letters, lowercase letters, numbers, or symbols. Make sure to Enable and press Ok.
+
+ <br/>
+<img src="https://i.imgur.com/5jAXrVZ.png" height="80%" width="80%" alt="Adduser"/>
+<br />
+<br />
+ Configure the account lockout policy to:
+        Lock out any user who enters five incorrect passwords.
+        Unlock an account automatically after 60 minutes.
+        Configure the number of minutes that must elapse after a failed logon attempt to 10 minutes. That's it we are finished.
+
 <br/>
-<img src="https://i.imgur.com/gwKXMTm.png" height="80%" width="80%" alt="Adduser"/>
+<img src="https://i.imgur.com/AOeh33N.png" height="80%" width="80%" alt="Adduser"/>
 <br />
 <br />
-Click finished.
+I hope you enjoyed this demonstration.
 
  <br/>
 <img src="https://i.imgur.com/xz1ElLI.png" height="80%" width="80%" alt="Adduser"/>
