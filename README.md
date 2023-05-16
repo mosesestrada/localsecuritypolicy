@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://i.imgur.com/SarDV3f.jpg" height="80%" width="80%" alt="adduserlogo"/>
+ <img src="https://i.imgur.com/8AcFlWN.jpg" height="80%" width="80%" alt="lsp"/>
 </p>
 
 <h1>Manage Account Policies</h1>
@@ -7,7 +7,7 @@
 
 <h2>Description</h2>
 
-Prepare yourself for an exhilarating expedition into the realm of Windows administration! As a Windows administrator, you hold the key to safeguarding precious data, fortifying system integrity, neutralizing vulnerabilities, and achieving a harmonious balance between security and user productivity. But hold on tight, because today's demonstration is far from ordinary. Get ready to be blown away as we embark on a thrilling adventure, configuring specific password and account lockout policies using the mighty Local Security Policy in Windows.
+Prepare yourself for an exhilarating expedition into the realm of Windows administration! As a Windows administrator, you hold the key to safeguarding precious data, fortifying system integrity, neutralizing vulnerabilities, and achieving a harmonious balance between security and user productivity. In today's demonstration we are going to be configuring specific password and account lockout policies using the Local Security Policy in Windows.
 
 Let's dive into the exciting realm of password and account lockout policy configurations! Here's what we have in store:
 
@@ -54,13 +54,13 @@ From the left pane, expand and select Account Policies > Password Policy.
 
 
  <br/>
-<img src="https://i.imgur.com/Ny5DdEf.png" height="80%" width="80%" alt="Adduser"/>
+<img src="https://i.imgur.com/Ny5DdEf.png" height="80%" width="80%" alt="lsp"/>
 <br />
 <br />
  Don't forget, we are also creating a password that meets complexity requirements such as using uppercase letters, lowercase letters, numbers, or symbols. Make sure to Enable and press Ok.
 
  <br/>
-<img src="https://i.imgur.com/5jAXrVZ.png" height="80%" width="80%" alt="Adduser"/>
+<img src="https://i.imgur.com/5jAXrVZ.png" height="80%" width="80%" alt="lsp"/>
 <br />
 <br />
  Configure the account lockout policy to:
@@ -69,31 +69,13 @@ From the left pane, expand and select Account Policies > Password Policy.
         Configure the number of minutes that must elapse after a failed logon attempt to 10 minutes. That's it we are finished.
 
 <br/>
-<img src="https://i.imgur.com/AOeh33N.png" height="80%" width="80%" alt="Adduser"/>
+<img src="https://i.imgur.com/AOeh33N.png" height="80%" width="80%" alt="lsp"/>
 <br />
 <br />
 I hope you enjoyed this demonstration.
 
  <br/>
-<img src="https://i.imgur.com/xz1ElLI.png" height="80%" width="80%" alt="Adduser"/>
-<br />
-<br />
-Now to configure the user's logon hours. Right click the user and select properties.
- <br/>
-<img src="https://i.imgur.com/SXHpnbX.png" height="80%" width="80%" alt="Adduser"/>
-<br />
-<br />
-Here you can adjust the user's logon hours. The blue bars are the hours the user can operate his workstation. Click ok when finished. CLick ok again to close and finish.
- <br/>
-<img src="https://i.imgur.com/AdulRWU.png" height="80%" width="80%" alt="Adduser"/>
-<br />
-<br />
-That's it, we're done! Simple, right? <br/>
-<img src="https://i.imgur.com/9cuTjD2.png" height="60%" width="60%" alt="Adduser"/>
-<br />
-<br />
-Hope you enjoyed this demonstration. <br/>
-<img src="https://i.imgur.com/sbqnXBB.jpg" height="80%" width="80%" alt="Adduser"/>
+<img src="https://i.imgur.com/rrn28wZ.jpg" height="80%" width="80%" alt="lsp"/>
 <br />
 <br />
 
