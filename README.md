@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://i.imgur.com/8AcFlWN.jpg" height="80%" width="80%" alt="lsp"/>
+ <img src="https://i.imgur.com/eNtgoKd.jpg" height="80%" width="80%" alt="lsp"/>
 </p>
 
 <h1>Manage Account Policies</h1>
@@ -75,7 +75,7 @@ From the left pane, expand and select Account Policies > Password Policy.
 I hope you enjoyed this demonstration.
 
  <br/>
-<img src="https://i.imgur.com/rrn28wZ.jpg" height="80%" width="80%" alt="lsp"/>
+<img src="https://i.imgur.com/60ohKCC.jpg" height="80%" width="80%" alt="lsp"/>
 <br />
 <br />
 
