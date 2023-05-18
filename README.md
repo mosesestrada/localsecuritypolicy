@@ -9,7 +9,7 @@
 
 Prepare yourself for an exhilarating expedition into the realm of Windows administration! As a Windows administrator, you hold the key to safeguarding precious data, fortifying system integrity, neutralizing vulnerabilities, and achieving a harmonious balance between security and user productivity. In today's demonstration we are going to be configuring specific password and account lockout policies using the Local Security Policy in Windows.
 
-Let's dive into the exciting realm of password and account lockout policy configurations! Here's what we have in store:
+Let's dive into the exciting realm of password and account lockout policy configurations! Here's what we are configuring:
 
 Password Settings: 
     Cycle through 10 passwords before reusing an old one.
