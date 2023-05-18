@@ -11,19 +11,21 @@ Prepare yourself for an exhilarating expedition into the realm of Windows admini
 
 Let's dive into the exciting realm of password and account lockout policy configurations! Here's what we have in store:
 
-Password Settings:
-
+Password Settings: 
     Cycle through 10 passwords before reusing an old one.
     Change the password every 90 days.
     Keep the password for a minimum of 14 days.
     Create a password that is at least 8 characters long.
     Craft a password that meets complexity requirements, including uppercase letters, lowercase letters, numbers, or symbols.
 
-Account Lockout Policies:
+    
 
+Account Lockout Policies: 
     Lock out any user who enters five incorrect passwords.
     Automatically unlock an account after 60 minutes.
     Set a 10-minute waiting period after a failed logon attempt.
+
+    
 
 <br />
 
